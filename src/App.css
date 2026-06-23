@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.page-content {
+    margin-left: 285px;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.chart-card {
+    border-radius: 20px;
+}
+
+.chart-card canvas {
+    width: 100% !important;
+}
+
+@media (max-width: 768px) {
+
+    .page-content {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .chart-card {
+        margin-bottom: 20px;
+    }
+}
+

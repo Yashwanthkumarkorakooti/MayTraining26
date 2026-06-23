@@ -1,0 +1,71 @@
+.dashboard-card {
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+}
+
+.dashboard-icon {
+  font-size: 40px;
+  color: white;
+}
+
+.bg-primary-card {
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #1d4ed8
+  );
+}
+
+.bg-success-card {
+  background: linear-gradient(
+    135deg,
+    #16a34a,
+    #15803d
+  );
+}
+
+.bg-warning-card {
+  background: linear-gradient(
+    135deg,
+    #eab308,
+    #ca8a04
+  );
+}
+
+.bg-danger-card {
+  background: linear-gradient(
+    135deg,
+    #dc2626,
+    #b91c1c
+  );
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.chart-card {
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background: #0f172a;
+  color: white;
+}
+
+.loader-container {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

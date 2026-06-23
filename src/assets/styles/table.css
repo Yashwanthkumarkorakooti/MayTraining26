@@ -1,0 +1,22 @@
+.table-card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #0f172a;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.badge-status {
+  padding: 8px 15px;
+  border-radius: 20px;
+}
